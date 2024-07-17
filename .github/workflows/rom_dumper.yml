@@ -4,15 +4,15 @@ on:
   workflow_dispatch:
     inputs:
       USER_NAME:
-        description: 'Name in GitHub Account'
+        description: 'android-sudo'
         required: true
         default: ''
       USER_EMAIL:
-        description: 'E-mail in GitHub Account'
+        description: 'aleksey1420@yandex.ru'
         required: true
         default: ''
       FIRMWARE_URL:
-        description: 'Stock ROM Link'
+        description: 'https://cdnorg.d.miui.com/V12.5.5.0.RJCRUXM/miui_LANCELOTRUGlobal_V12.5.5.0.RJCRUXM_7cc10daa65_11.0.zip'
         required: true
         default: ''
       GENERATE_VENDOR:
